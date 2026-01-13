@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main App Box */
+.app {
+  width: 420px;
+  height: 600px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  background: #4a3fb3;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Chat Box */
+.chat-box {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #f4f4f8;
+}
+
+/* Messages */
+.chat-box p {
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+/* Normal message */
+.chat-box p b {
+  color: #4a3fb3;
+}
+
+/* Notification message */
+.chat-box i {
+  color: #777;
+}
+
+/* Input Area */
+.input-area {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+#messageInput {
+  flex: 1;
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+  outline: none;
+}
+
+#sendBtn {
+  width: 60px;
+  border: none;
+  background: #4a3fb3;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#sendBtn:hover {
+  background: #372c8c;
+}
