@@ -15,6 +15,6 @@ Multiple users can join the chat, send messages, and receive notifications when 
 
 - Node.js
 - ws (WebSocket library)
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
