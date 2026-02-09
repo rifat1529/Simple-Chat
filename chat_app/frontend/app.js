@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://localhost:8080");
+const socket = new WebSocket(" https://unentreated-estell-unhandily.ngrok-free.dev");
 
 const chatBox = document.getElementById("chatBox");
 const messageInput = document.getElementById("messageInput");
